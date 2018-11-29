@@ -53,6 +53,7 @@ int testnum (char *buf,int n)//check digit
 		if ((buf[j]=='.'))
 			k++;
 		}
+	
 	m=j;
 	if (k==0)
 		{
