@@ -87,6 +87,7 @@ void swapNeighbor(int sig) {//функция замены соседних эл�
         str[i+1] = c;
         i+=2;
     }
+    
     write(1, str, i + 2);
     sigset(SIGUSR1, swapNeighbor);
     kill(ppid, SIGUSR1);
